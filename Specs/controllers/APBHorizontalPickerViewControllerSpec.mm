@@ -11,7 +11,6 @@ describe(@"APBHorizontalPickerViewController", ^{
 
     beforeEach(^{
         controller = [[APBHorizontalPickerViewController alloc] init];
-//        controller.view should_not be_nil;
         [controller view];
     });
     

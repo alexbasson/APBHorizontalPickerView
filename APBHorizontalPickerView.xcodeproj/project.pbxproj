@@ -182,8 +182,8 @@
 		FA6ADD8218B1595600EBF684 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				FA6ADD9918B15BDA00EBF684 /* views */,
-				FA6ADD9718B15BA600EBF684 /* controllers */,
+				FA6ADD9918B15BDA00EBF684 /* Views */,
+				FA6ADD9718B15BA600EBF684 /* Controllers */,
 				FA6ADD8A18B1595600EBF684 /* Rakefile */,
 				FA6ADD8B18B1595600EBF684 /* Cedar-iOS.framework */,
 				FA6ADD8318B1595600EBF684 /* Supporting Files */,
@@ -202,36 +202,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA6ADD9318B15AD000EBF684 /* controllers */ = {
+		FA6ADD9318B15AD000EBF684 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				FA6ADD9418B15B0400EBF684 /* APBHorizontalPickerViewController.h */,
 				FA6ADD9518B15B0400EBF684 /* APBHorizontalPickerViewController.m */,
 			);
+			name = Controllers;
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		FA6ADD9718B15BA600EBF684 /* controllers */ = {
+		FA6ADD9718B15BA600EBF684 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */,
 			);
+			name = Controllers;
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		FA6ADD9818B15BC500EBF684 /* views */ = {
+		FA6ADD9818B15BC500EBF684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				FA6ADD9C18B15C1C00EBF684 /* APBHorizontalPickerView.h */,
 				FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */,
 			);
+			name = Views;
 			path = views;
 			sourceTree = "<group>";
 		};
-		FA6ADD9918B15BDA00EBF684 /* views */ = {
+		FA6ADD9918B15BDA00EBF684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Views;
 			path = views;
 			sourceTree = "<group>";
 		};
@@ -270,8 +274,8 @@
 		FA6D0F9D18B1534A00015A0C /* APBHorizontalPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				FA6ADD9818B15BC500EBF684 /* views */,
-				FA6ADD9318B15AD000EBF684 /* controllers */,
+				FA6ADD9818B15BC500EBF684 /* Views */,
+				FA6ADD9318B15AD000EBF684 /* Controllers */,
 				FA6D0FA618B1534A00015A0C /* APBAppDelegate.h */,
 				FA6D0FA718B1534A00015A0C /* APBAppDelegate.m */,
 				FA6D0FA918B1534A00015A0C /* Images.xcassets */,
@@ -679,6 +683,7 @@
 				FA6ADD9018B1595600EBF684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		FA6D0F8F18B1534A00015A0C /* Build configuration list for PBXProject "APBHorizontalPickerView" */ = {
 			isa = XCConfigurationList;
@@ -687,7 +692,7 @@
 				FA6D0FBF18B1534A00015A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FA6D0FC018B1534A00015A0C /* Build configuration list for PBXNativeTarget "APBHorizontalPickerView" */ = {
 			isa = XCConfigurationList;
@@ -696,7 +701,7 @@
 				FA6D0FC218B1534A00015A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
