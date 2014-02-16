@@ -17,6 +17,7 @@
 		FA6ADD9618B15B0400EBF684 /* APBHorizontalPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9518B15B0400EBF684 /* APBHorizontalPickerViewController.m */; };
 		FA6ADD9B18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */; };
 		FA6ADD9E18B15C1C00EBF684 /* APBHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */; };
+		FA6ADDC618B1701300EBF684 /* APBHorizontalPickerViewSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADDC518B1701300EBF684 /* APBHorizontalPickerViewSpec.mm */; };
 		FA6D0F9818B1534A00015A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9718B1534A00015A0C /* Foundation.framework */; };
 		FA6D0F9A18B1534A00015A0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */; };
 		FA6D0F9C18B1534A00015A0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9B18B1534A00015A0C /* UIKit.framework */; };
@@ -114,6 +115,7 @@
 		FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APBHorizontalPickerViewControllerSpec.mm; sourceTree = "<group>"; };
 		FA6ADD9C18B15C1C00EBF684 /* APBHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBHorizontalPickerView.h; sourceTree = "<group>"; };
 		FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBHorizontalPickerView.m; sourceTree = "<group>"; };
+		FA6ADDC518B1701300EBF684 /* APBHorizontalPickerViewSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = APBHorizontalPickerViewSpec.mm; path = Specs/Views/APBHorizontalPickerViewSpec.mm; sourceTree = SOURCE_ROOT; };
 		FA6D0F9418B1534A00015A0C /* APBHorizontalPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBHorizontalPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D0F9718B1534A00015A0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -234,6 +236,7 @@
 		FA6ADD9918B15BDA00EBF684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FA6ADDC518B1701300EBF684 /* APBHorizontalPickerViewSpec.mm */,
 			);
 			name = Views;
 			path = views;
@@ -483,6 +486,7 @@
 			files = (
 				FA6ADD9218B15A1200EBF684 /* APBAppDelegateSpec.mm in Sources */,
 				FA6ADD9B18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm in Sources */,
+				FA6ADDC618B1701300EBF684 /* APBHorizontalPickerViewSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
