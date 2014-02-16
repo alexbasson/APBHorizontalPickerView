@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6ADD7E18B1595600EBF684 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6ADD7D18B1595600EBF684 /* SenTestingKit.framework */; };
+		FA6ADD7F18B1595600EBF684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */; };
+		FA6ADD8018B1595600EBF684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9B18B1534A00015A0C /* UIKit.framework */; };
+		FA6ADD8118B1595600EBF684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9718B1534A00015A0C /* Foundation.framework */; };
+		FA6ADD8718B1595600EBF684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6ADD8518B1595600EBF684 /* InfoPlist.strings */; };
+		FA6ADD8C18B1595600EBF684 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6ADD8B18B1595600EBF684 /* Cedar-iOS.framework */; };
+		FA6ADD9218B15A1200EBF684 /* APBAppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9118B15A1200EBF684 /* APBAppDelegateSpec.mm */; };
+		FA6ADD9618B15B0400EBF684 /* APBHorizontalPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9518B15B0400EBF684 /* APBHorizontalPickerViewController.m */; };
+		FA6ADD9B18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */; };
+		FA6ADD9E18B15C1C00EBF684 /* APBHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */; };
 		FA6D0F9818B1534A00015A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9718B1534A00015A0C /* Foundation.framework */; };
 		FA6D0F9A18B1534A00015A0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */; };
 		FA6D0F9C18B1534A00015A0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9B18B1534A00015A0C /* UIKit.framework */; };
@@ -14,22 +24,96 @@
 		FA6D0FA418B1534A00015A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0FA318B1534A00015A0C /* main.m */; };
 		FA6D0FA818B1534A00015A0C /* APBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0FA718B1534A00015A0C /* APBAppDelegate.m */; };
 		FA6D0FAA18B1534A00015A0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0FA918B1534A00015A0C /* Images.xcassets */; };
-		FA6D0FB118B1534A00015A0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0FB018B1534A00015A0C /* XCTest.framework */; };
-		FA6D0FB218B1534A00015A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9718B1534A00015A0C /* Foundation.framework */; };
-		FA6D0FB318B1534A00015A0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D0F9B18B1534A00015A0C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FA6D0FB418B1534A00015A0C /* PBXContainerItemProxy */ = {
+		FA6ADD6318B158D800EBF684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FA6D0F8C18B1534A00015A0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA6D0F9318B1534A00015A0C;
-			remoteInfo = APBHorizontalPickerView;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		FA6ADD6518B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		FA6ADD6718B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		FA6ADD6918B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		FA6ADD6B18B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		FA6ADD6D18B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = iOSFrameworkSpecs;
+		};
+		FA6ADD6F18B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		FA6ADD7118B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		FA6ADD7318B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = XCUnitAppTests;
+		};
+		FA6ADD7518B158D800EBF684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Externals/cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		FA6ADD7C18B1595600EBF684 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6ADD7D18B1595600EBF684 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA6ADD8418B1595600EBF684 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		FA6ADD8618B1595600EBF684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA6ADD8A18B1595600EBF684 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		FA6ADD8B18B1595600EBF684 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		FA6ADD8D18B1595600EBF684 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		FA6ADD9118B15A1200EBF684 /* APBAppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APBAppDelegateSpec.mm; sourceTree = "<group>"; };
+		FA6ADD9418B15B0400EBF684 /* APBHorizontalPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBHorizontalPickerViewController.h; sourceTree = "<group>"; };
+		FA6ADD9518B15B0400EBF684 /* APBHorizontalPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBHorizontalPickerViewController.m; sourceTree = "<group>"; };
+		FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APBHorizontalPickerViewControllerSpec.mm; sourceTree = "<group>"; };
+		FA6ADD9C18B15C1C00EBF684 /* APBHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBHorizontalPickerView.h; sourceTree = "<group>"; };
+		FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBHorizontalPickerView.m; sourceTree = "<group>"; };
 		FA6D0F9418B1534A00015A0C /* APBHorizontalPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBHorizontalPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D0F9718B1534A00015A0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -41,11 +125,22 @@
 		FA6D0FA618B1534A00015A0C /* APBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBAppDelegate.h; sourceTree = "<group>"; };
 		FA6D0FA718B1534A00015A0C /* APBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBAppDelegate.m; sourceTree = "<group>"; };
 		FA6D0FA918B1534A00015A0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA6D0FAF18B1534A00015A0C /* APBHorizontalPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APBHorizontalPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D0FB018B1534A00015A0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA6ADD7818B1595600EBF684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6ADD7F18B1595600EBF684 /* CoreGraphics.framework in Frameworks */,
+				FA6ADD8018B1595600EBF684 /* UIKit.framework in Frameworks */,
+				FA6ADD8C18B1595600EBF684 /* Cedar-iOS.framework in Frameworks */,
+				FA6ADD7E18B1595600EBF684 /* SenTestingKit.framework in Frameworks */,
+				FA6ADD8118B1595600EBF684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6D0F9118B1534A00015A0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,25 +151,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA6D0FAC18B1534A00015A0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA6D0FB118B1534A00015A0C /* XCTest.framework in Frameworks */,
-				FA6D0FB318B1534A00015A0C /* UIKit.framework in Frameworks */,
-				FA6D0FB218B1534A00015A0C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA6ADD5418B1587900EBF684 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		FA6ADD5618B158D700EBF684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD6418B158D800EBF684 /* Cedar.framework */,
+				FA6ADD6618B158D800EBF684 /* Specs */,
+				FA6ADD6818B158D800EBF684 /* FocusedSpecs */,
+				FA6ADD6A18B158D800EBF684 /* libCedar-StaticLib.a */,
+				FA6ADD6C18B158D800EBF684 /* iOSSpecs.app */,
+				FA6ADD6E18B158D800EBF684 /* iOSFrameworkSpecs.app */,
+				FA6ADD7018B158D800EBF684 /* OCUnitApp.app */,
+				FA6ADD7218B158D800EBF684 /* OCUnitAppTests.octest */,
+				FA6ADD7418B158D800EBF684 /* XCUnitAppTests.xctest */,
+				FA6ADD7618B158D800EBF684 /* OCUnitAppLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6ADD8218B1595600EBF684 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD9918B15BDA00EBF684 /* views */,
+				FA6ADD9718B15BA600EBF684 /* controllers */,
+				FA6ADD8A18B1595600EBF684 /* Rakefile */,
+				FA6ADD8B18B1595600EBF684 /* Cedar-iOS.framework */,
+				FA6ADD8318B1595600EBF684 /* Supporting Files */,
+				FA6ADD9118B15A1200EBF684 /* APBAppDelegateSpec.mm */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		FA6ADD8318B1595600EBF684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD8418B1595600EBF684 /* Specs-Info.plist */,
+				FA6ADD8518B1595600EBF684 /* InfoPlist.strings */,
+				FA6ADD8D18B1595600EBF684 /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6ADD9318B15AD000EBF684 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD9418B15B0400EBF684 /* APBHorizontalPickerViewController.h */,
+				FA6ADD9518B15B0400EBF684 /* APBHorizontalPickerViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FA6ADD9718B15BA600EBF684 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD9A18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FA6ADD9818B15BC500EBF684 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FA6ADD9C18B15C1C00EBF684 /* APBHorizontalPickerView.h */,
+				FA6ADD9D18B15C1C00EBF684 /* APBHorizontalPickerView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FA6ADD9918B15BDA00EBF684 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		FA6D0F8B18B1534A00015A0C = {
 			isa = PBXGroup;
 			children = (
 				FA6D0F9D18B1534A00015A0C /* APBHorizontalPickerView */,
+				FA6ADD8218B1595600EBF684 /* Specs */,
 				FA6D0F9618B1534A00015A0C /* Frameworks */,
 				FA6D0F9518B1534A00015A0C /* Products */,
+				FA6ADD5418B1587900EBF684 /* Externals */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6D0F9418B1534A00015A0C /* APBHorizontalPickerView.app */,
-				FA6D0FAF18B1534A00015A0C /* APBHorizontalPickerViewTests.xctest */,
+				FA6ADD7C18B1595600EBF684 /* Specs.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +262,7 @@
 				FA6D0F9918B1534A00015A0C /* CoreGraphics.framework */,
 				FA6D0F9B18B1534A00015A0C /* UIKit.framework */,
 				FA6D0FB018B1534A00015A0C /* XCTest.framework */,
+				FA6ADD7D18B1595600EBF684 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,6 +270,8 @@
 		FA6D0F9D18B1534A00015A0C /* APBHorizontalPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				FA6ADD9818B15BC500EBF684 /* views */,
+				FA6ADD9318B15AD000EBF684 /* controllers */,
 				FA6D0FA618B1534A00015A0C /* APBAppDelegate.h */,
 				FA6D0FA718B1534A00015A0C /* APBAppDelegate.m */,
 				FA6D0FA918B1534A00015A0C /* Images.xcassets */,
@@ -123,6 +294,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA6ADD7B18B1595600EBF684 /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6ADD8E18B1595600EBF684 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				FA6ADD7718B1595600EBF684 /* Sources */,
+				FA6ADD7818B1595600EBF684 /* Frameworks */,
+				FA6ADD7918B1595600EBF684 /* Resources */,
+				FA6ADD7A18B1595600EBF684 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = FA6ADD7C18B1595600EBF684 /* Specs.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		FA6D0F9318B1534A00015A0C /* APBHorizontalPickerView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA6D0FC018B1534A00015A0C /* Build configuration list for PBXNativeTarget "APBHorizontalPickerView" */;
@@ -140,24 +329,6 @@
 			productReference = FA6D0F9418B1534A00015A0C /* APBHorizontalPickerView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA6D0FAE18B1534A00015A0C /* APBHorizontalPickerViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA6D0FC318B1534A00015A0C /* Build configuration list for PBXNativeTarget "APBHorizontalPickerViewTests" */;
-			buildPhases = (
-				FA6D0FAB18B1534A00015A0C /* Sources */,
-				FA6D0FAC18B1534A00015A0C /* Frameworks */,
-				FA6D0FAD18B1534A00015A0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA6D0FB518B1534A00015A0C /* PBXTargetDependency */,
-			);
-			name = APBHorizontalPickerViewTests;
-			productName = APBHorizontalPickerViewTests;
-			productReference = FA6D0FAF18B1534A00015A0C /* APBHorizontalPickerViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,11 +338,6 @@
 				CLASSPREFIX = APB;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Alex;
-				TargetAttributes = {
-					FA6D0FAE18B1534A00015A0C = {
-						TestTargetID = FA6D0F9318B1534A00015A0C;
-					};
-				};
 			};
 			buildConfigurationList = FA6D0F8F18B1534A00015A0C /* Build configuration list for PBXProject "APBHorizontalPickerView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -183,15 +349,102 @@
 			mainGroup = FA6D0F8B18B1534A00015A0C;
 			productRefGroup = FA6D0F9518B1534A00015A0C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA6ADD5618B158D700EBF684 /* Products */;
+					ProjectRef = FA6ADD5518B158D700EBF684 /* Cedar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FA6D0F9318B1534A00015A0C /* APBHorizontalPickerView */,
-				FA6D0FAE18B1534A00015A0C /* APBHorizontalPickerViewTests */,
+				FA6ADD7B18B1595600EBF684 /* Specs */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FA6ADD6418B158D800EBF684 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = FA6ADD6318B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD6618B158D800EBF684 /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = FA6ADD6518B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD6818B158D800EBF684 /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = FA6ADD6718B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD6A18B158D800EBF684 /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = FA6ADD6918B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD6C18B158D800EBF684 /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = FA6ADD6B18B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD6E18B158D800EBF684 /* iOSFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSFrameworkSpecs.app;
+			remoteRef = FA6ADD6D18B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD7018B158D800EBF684 /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = FA6ADD6F18B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD7218B158D800EBF684 /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = FA6ADD7118B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD7418B158D800EBF684 /* XCUnitAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCUnitAppTests.xctest;
+			remoteRef = FA6ADD7318B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA6ADD7618B158D800EBF684 /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = FA6ADD7518B158D800EBF684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		FA6ADD7918B1595600EBF684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6ADD8718B1595600EBF684 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6D0F9218B1534A00015A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,43 +454,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA6D0FAD18B1534A00015A0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA6ADD7A18B1595600EBF684 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA6ADD7718B1595600EBF684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6ADD9218B15A1200EBF684 /* APBAppDelegateSpec.mm in Sources */,
+				FA6ADD9B18B15BFA00EBF684 /* APBHorizontalPickerViewControllerSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA6D0F9018B1534A00015A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA6D0FA818B1534A00015A0C /* APBAppDelegate.m in Sources */,
+				FA6ADD9618B15B0400EBF684 /* APBHorizontalPickerViewController.m in Sources */,
+				FA6ADD9E18B15C1C00EBF684 /* APBHorizontalPickerView.m in Sources */,
 				FA6D0FA418B1534A00015A0C /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6D0FAB18B1534A00015A0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FA6D0FB518B1534A00015A0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA6D0F9318B1534A00015A0C /* APBHorizontalPickerView */;
-			targetProxy = FA6D0FB418B1534A00015A0C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		FA6ADD8518B1595600EBF684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6ADD8618B1595600EBF684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		FA6D0FA018B1534A00015A0C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +515,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA6ADD8F18B1595600EBF684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APBHorizontalPickerView.app/APBHorizontalPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/alex/workspace/APBHorizontalPickerView/Specs/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA6ADD9018B1595600EBF684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APBHorizontalPickerView.app/APBHorizontalPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/alex/workspace/APBHorizontalPickerView/Specs/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		FA6D0FBE18B1534A00015A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -349,51 +669,17 @@
 			};
 			name = Release;
 		};
-		FA6D0FC418B1534A00015A0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APBHorizontalPickerView.app/APBHorizontalPickerView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APBHorizontalPickerView/APBHorizontalPickerView-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "APBHorizontalPickerViewTests/APBHorizontalPickerViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		FA6D0FC518B1534A00015A0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APBHorizontalPickerView.app/APBHorizontalPickerView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APBHorizontalPickerView/APBHorizontalPickerView-Prefix.pch";
-				INFOPLIST_FILE = "APBHorizontalPickerViewTests/APBHorizontalPickerViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA6ADD8E18B1595600EBF684 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6ADD8F18B1595600EBF684 /* Debug */,
+				FA6ADD9018B1595600EBF684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FA6D0F8F18B1534A00015A0C /* Build configuration list for PBXProject "APBHorizontalPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,15 +694,6 @@
 			buildConfigurations = (
 				FA6D0FC118B1534A00015A0C /* Debug */,
 				FA6D0FC218B1534A00015A0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA6D0FC318B1534A00015A0C /* Build configuration list for PBXNativeTarget "APBHorizontalPickerViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA6D0FC418B1534A00015A0C /* Debug */,
-				FA6D0FC518B1534A00015A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
